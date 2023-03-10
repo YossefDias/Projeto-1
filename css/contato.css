@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #E6B22B;
+}
+
+body {
+    background-color: #001B40;
+    color: #E6B22B;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+}
+.mapa iframe{
+    margin-left: 100px;
+    width: 400px;
+    height: 280px;
+
+}
+
+main {
+    display: flex;
+    align-items: center;
+    margin: 4vw;
+    justify-content: center;
+}
+.gallery {
+margin: auto;
+justify-content: center;
+align-items: center;
+}
+
+.gallery-item {
+    background: #001B40;
+    box-shadow: 0px 4px 4px rgba(250, 213, 2, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+    
+}
+.menu ul{
+    display: flex;
+    gap: 20px;
+}
+
+.menu ul li a {
+    margin-top: 10px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: #E6B22B;
+}
+
+form {
+    width: 400px;
+    padding: 30px;
+    margin: 100 auto;
+    border-radius: 15px;
+    background-color: #001B40;
+}
+
+form fieldset{
+    border: 0    
+}
+
+form fieldset label{
+    color: #E6B22B;
+    display:block
+}
+
+form fieldset input, textarea{
+    width: 100%;
+
+}
+#submit-contact {
+    margin: 5px;
+    width: 100px;
+    color: #001B40;
+    background-color: #E6B22B;
+    border-radius: 15px;
+}
+
+footer {
+    display: center;
+    background-color: #E6B22B;
+    color: #001B40;
+    width: 100vw;
+}
