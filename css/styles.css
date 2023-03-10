@@ -11,8 +11,8 @@ header {
 }
 
 header img {
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
 }
 
 li {
@@ -57,4 +57,11 @@ footer {
     background-color: #E6B22B;
     color: #001B40;
     width: 100vw;
+}
+
+@media (min-width: 768px) {
+    footer {
+        position: absolute;
+        bottom: 0;
+    }
 }
