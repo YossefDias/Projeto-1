@@ -66,11 +66,12 @@ footer {
     height: 100px;
     position: absolute;
     bottom: 0;
-  }
+}
+
   
-  @media (min-width: 900px) {
+@media (min-width: 900px) {
     body {
-      position: relative;
-      min-height: 100vh; 
+        position: relative;
+        min-height: 100vh; 
     }
 }

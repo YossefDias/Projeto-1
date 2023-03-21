@@ -15,8 +15,6 @@ header {
 body {
     background-color: #001B40;
     color: #E6B22B;
-             
-
 }
 
 header img {
@@ -138,6 +136,10 @@ footer {
     width: 100%;
     height: 100px;  }
   
+.invalid {
+    border: 2px solid red;
+}    
+
   @media (min-width: 900px) {
     body {
       position: relative;
@@ -147,4 +149,6 @@ footer {
       position: absolute;
       bottom: 0;
     }
+    
+  
   }
